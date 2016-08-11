@@ -216,5 +216,6 @@
     <orderEntry type="library" exported="" name="firebase-analytics-9.4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tagmanager-9.4.0" level="project" />
     <orderEntry type="module" module-name="jokeprovider" exported="" />
+    <orderEntry type="module" module-name="jokeactivity" exported="" />
   </component>
 </module>
