@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 public class JokeActivity extends AppCompatActivity {
     public final static String JOKE_INTENT_KEY = "supplied_joke";
+    public final static String JOKE_PREF_KEY = "joke_pref_key";
     private String joke;
     TextView jokeTextView;
 
