@@ -6,7 +6,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-
+/**
+ * Created by Warren on 8/11/2016.
+ */
 public class MainActivity extends AppCompatActivity {
     public static final String SHARED_PREF_KEY = "shared_pref";
 
@@ -43,6 +45,4 @@ public class MainActivity extends AppCompatActivity {
     public void tellJoke(View view){
         new EndpointsAsyncTask(this).execute(this);
     }
-
-
 }
